@@ -1,0 +1,38 @@
+{
+  "name": "shuup-xtheme",
+  "version": "1.0.0",
+  "description": "Shuup XTheme Editor",
+  "main": "build_resources.js",
+  "scripts": {
+    "watch": "node build_resources --watch",
+    "build": "node build_resources --sync",
+    "lint": "eslint static_src"
+  },
+  "shuup": {
+    "static_build": true
+  },
+  "author": "Shuup Team <shuup@shuup.com>",
+  "private": true,
+  "license": "OSL-3.0",
+  "dependencies": {
+    "autoprefixer": "^8.6.4",
+    "babel-preset-env": "^1.7.0",
+    "bootstrap": "https://github.com/shuup/bootstrap/tarball/852c02e",
+    "codemirror": "^5.40.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "less": "^3.0.4",
+    "lodash": "^4.17.10",
+    "open-sans-all": "0.1.3",
+    "parcel-bundler": "^1.10.3",
+    "postcss-modules": "^1.1.0",
+    "select2": "^4.0.6-rc.1",
+    "shuup-static-build-tools": "^1.0.2",
+    "sortablejs": "^1.7.0",
+    "summernote": "0.8.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "eslint": "^4.19.1"
+  }
+}
